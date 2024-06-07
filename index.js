@@ -27,7 +27,7 @@ function addItem() {
       <div>
           <strong>${itemDetails.name}</strong>
           <p>${itemDetails.description}</p>
-          <span>$${itemDetails.price}</span>
+          <span>₹${itemDetails.price}</span>
       </div>
       <button class="edit-btn" onclick="editItem(this)">Edit</button>
       <button class="delete-btn" onclick="deleteItem(this)">Delete</button>
