@@ -21,12 +21,12 @@
       }
   
       ::-webkit-scrollbar-thumb {
-        background: linear-gradient(45deg, #fc466b, #3f5efb);
+        background:  #555 ;
         border-radius: 10px;
       }
   
       ::-webkit-scrollbar-thumb:hover {
-        background: #555;
+        background:linear-gradient(45deg, #fc466b, #3f5efb);
       }
   
       /* Firefox */
@@ -37,7 +37,7 @@
   
       /* IE and Edge */
       body::-ms-scrollbar {
-        width: 12px;
+        width: 50px;
       }
   
       body::-ms-scrollbar-track {
