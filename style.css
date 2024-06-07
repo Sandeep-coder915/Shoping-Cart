@@ -2,6 +2,57 @@
 *{
     margin: 0;
 }
+    /* Styling the entire body to demonstrate scrolling */
+    body {
+        height: 150vh; /* Making the body height larger than the viewport to enable scrolling */
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+  
+      /* Customizing the scrollbar */
+      /* Webkit Browsers (Chrome, Safari) */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+  
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+      }
+  
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(45deg, #fc466b, #3f5efb);
+        border-radius: 10px;
+      }
+  
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+  
+      /* Firefox */
+      body {
+        scrollbar-width: thin;
+        scrollbar-color: #888 #f1f1f1;
+      }
+  
+      /* IE and Edge */
+      body::-ms-scrollbar {
+        width: 12px;
+      }
+  
+      body::-ms-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+      }
+  
+      body::-ms-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+      }
+  
+      body::-ms-scrollbar-thumb:hover {
+        background: #555;
+      }
 .cart {
     max-width: 450px;
     margin: 0 auto;
