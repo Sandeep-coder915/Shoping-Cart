@@ -75,7 +75,7 @@ function editItem(button) {
 
   // Update item details
   itemNameElement.textContent = newItemName;
-  itemPriceElement.textContent = `$${newItemPrice.toFixed(2)}`;
+  itemPriceElement.textContent = `RS${newItemPrice.toFixed(2)}`;
 
   // Update total price (subtract old price, add new price)
   var newTotalPrice = newItemPrice - itemPrice;
